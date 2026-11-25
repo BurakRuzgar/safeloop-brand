@@ -140,7 +140,7 @@ pages.append(page(3, f"""
  <div class="tile white" style="height:57mm"><div class="center" style="flex:1">{logo("safeloop-dikey-renkli.svg", height=105)}</div>
   <div><h3>Dikey lockup</h3><div class="cap">Kapak, afiş, giriş ekranı, sosyal medya görseli</div></div></div>
  <div class="tile white" style="height:57mm"><div class="center" style="flex:1">{logo("safeloop-yatay-imza-renkli.svg", width=270)}</div>
-  <div><h3>İmzalı · "by Rüzgar Safety"</h3><div class="cap">Kurumsal belge, sözleşme, teklif, site alt bilgisi, fuar. Uygulama içinde kullanılmaz.</div></div></div>
+  <div><h3>İmzalı · "by Rüzgar Safety"</h3><div class="cap">Kurumsal belge, sözleşme, teklif, site alt bilgisi, fuar. Uygulamaların giriş ekranında kullanılabilir; uygulama içinde kullanılmaz.</div></div></div>
  <div class="tile white" style="height:57mm"><div class="center" style="flex:1">{logo("safeloop-dikey-imza-renkli.svg", height=108)}</div>
   <div><h3>Dikey imzalı</h3><div class="cap">Kapak ve afişte kurumsal imza gerektiğinde</div></div></div>
  <div class="tile white" style="height:46mm"><div class="center" style="flex:1">{logo("safeloop-wordmark-renkli.svg", width=200)}</div>

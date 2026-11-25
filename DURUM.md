@@ -84,6 +84,8 @@
   - Açık temada odak halkası ve aktif sekme çizgisi Turkuaz Koyu (Turkuaz beyazda 2.1:1). Turkuaz yalnız geniş dolguda (state-active-fill).
   - Koyu tema zemini #0A1320, kart Lacivert #0F1B2D. Boşluk 4 px taban, tip ölçeği 12–46 px.
 
+- **KARAR (2026-11-25): İmzalı sürüm istisnası.** İmzalı sürüm uygulamaların giriş ekranında kullanılabilir; uygulama içinde kullanılmaz. 06-marka-kilavuzu.md ve PDF kılavuz güncellendi. İlk uygulama: SafeLoop Risk Değerlendirmesi giriş ekranı (dikey imzalı, renkli).
+
 ## Açık konular
 - Marka tescil araştırması profesyonelce yapılmalı (kütüphane taraması yeterli değil).
 - Risk: Sembol 16–32 px'te "S"/"§" ya da senkron ikonu gibi okunabilir.

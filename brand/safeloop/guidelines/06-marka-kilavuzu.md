@@ -17,7 +17,7 @@ Kayma yönü her yerde aynıdır: sol yarı yukarıda, sağ yarı aşağıda.
 |---|---|
 | **Yatay lockup** (kutu + wordmark) | Varsayılan. Web üst barı, sunum, antetli kâğıt, tabela |
 | **Dikey lockup** | Kare ve dikey alanlar: kapak, afiş, giriş ekranı, sosyal medya görseli |
-| **İmzalı** ("by Rüzgar Safety") | Kurumsal belge, sözleşme, teklif, web sitesi alt bilgisi, fuar. Uygulama içinde kullanılmaz |
+| **İmzalı** ("by Rüzgar Safety") | Kurumsal belge, sözleşme, teklif, web sitesi alt bilgisi, fuar. İmzalı sürüm uygulamaların giriş ekranında kullanılabilir; uygulama içinde kullanılmaz |
 | **Yalnız wordmark** | Dar yatay alanlar: mobil üst bar, e-posta imzası, alt bilgi |
 | **Yalnız kutulu sembol** | Uygulama ve PWA ikonu, favicon, sosyal medya avatarı |
 
