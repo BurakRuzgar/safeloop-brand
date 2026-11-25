@@ -27,8 +27,12 @@
   - Siyah sürümler (lockup-box-ters-siyah*) → concepts-v2/elenen/
   - kullanim-notlari.md güncellendi
 
+- **Aşama 5 tamamlandı ve onaylandı (token'lar):** brand/safeloop/tokens/
+  - safeloop.tokens.css (--sl- önekli, açık/koyu + sistem tercihi + reduced-motion) · safeloop.tokens.json (W3C DTCG)
+  - kontrast.md (26 çift × 2 tema, tümü WCAG'ı geçiyor) · onizleme.html/.png · README.md
+  - Üretici: tokens/src/build_tokens.py (tek kaynak)
+
 ## Yapılmadı
-- Aşama 5: Token'lar
 - Aşama 6: Teslim
 
 ## Kararlar
@@ -52,6 +56,12 @@
 - Çalışma kapsamı: yalnız bu depo; başka proje ya da uygulama koduna dokunulmaz.
 - Kullanım kuralı: kutulu sembol + wordmark geniş alanlarda; yalnız wordmark dar alanlarda; yalnız kutulu sembol ikon ve favicon olarak.
 
+- **KARAR (Aşama 5): Token'lar onaylandı.**
+  - Semantic token'lar: state-active* = Turkuaz (aktif/devam eden), state-done* = Başarılı yeşili (yalnız kapandı).
+  - Koyu temada birincil buton ters: Buz #E8EDF3 zemin + Lacivert metin. Vurgu butonu iki temada Turkuaz + Lacivert metin.
+  - Açık temada odak halkası ve aktif sekme çizgisi Turkuaz Koyu (Turkuaz beyazda 2.1:1). Turkuaz yalnız geniş dolguda (state-active-fill).
+  - Koyu tema zemini #0A1320, kart Lacivert #0F1B2D. Boşluk 4 px taban, tip ölçeği 12–46 px.
+
 ## Açık konular
 - Marka tescil araştırması profesyonelce yapılmalı (kütüphane taraması yeterli değil).
 - Risk: Sembol 16–32 px'te "S"/"§" ya da senkron ikonu gibi okunabilir.
@@ -59,10 +69,9 @@
 - Boyuta göre kesim seçimi (≤ 200 px lockup ve 16–32 px ikon → küçük kesim) kılavuza yazılacak.
 
 ## Sıradaki adım
-- **Aşama 5: Token'lar** (CSS değişkenleri + JSON, açık/koyu tema) → brand/safeloop/tokens/
-  - Renk anlamı token'lara yansıyacak:
-    - Turkuaz = aktif / devam eden / vurgu.
-    - Başarılı yeşili = yalnız tamamlandı / kapandı durumu.
-    - İkisi aynı anlamda kullanılmaz.
-  - Kapsam: yalnız bu depo; başka proje ya da uygulama koduna dokunulmaz.
-- Onay bekleniyor: Aşama 5'e başlamak için.
+- **Aşama 6: Teslim** → brand/safeloop/final/svg/, final/png/, guidelines/
+  - Yatay/dikey lockup, sembol, "by Rüzgar Safety"li sürüm; renkli/siyah/beyaz.
+  - Wordmark stroke → outline; wordmark-oo.svg paleti güncellenecek.
+  - PNG: favicon.ico, 16/32, 192/512 PWA, 180 apple-touch-icon (16–32 px küçük kesimle).
+  - Marka kılavuzu (markdown): boyuta göre kesim seçimi, token'lara bağlantı.
+- Onay bekleniyor: Aşama 6'ya başlamak için.

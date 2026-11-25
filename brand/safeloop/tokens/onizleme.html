@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>SafeLoop Token Önizleme</title>
+<link rel="stylesheet" href="safeloop.tokens.css">
+<style>
+  * { box-sizing: border-box; margin: 0; }
+  body { display: flex; font-family: var(--sl-font-family-body); }
+  .t { flex: 1; padding: var(--sl-space-8); background: var(--sl-color-bg-app); color: var(--sl-color-text-primary); }
+  h1 { font: var(--sl-font-weight-extrabold) var(--sl-font-size-xl)/var(--sl-line-height-tight) var(--sl-font-family-display); letter-spacing: var(--sl-letter-spacing-tight); }
+  .sub { color: var(--sl-color-text-secondary); font-size: var(--sl-font-size-base); margin: var(--sl-space-2) 0 var(--sl-space-7); }
+  .card { background: var(--sl-color-bg-surface); border: 1px solid var(--sl-color-border-default); border-radius: var(--sl-radius-lg); box-shadow: var(--sl-shadow-md); padding: var(--sl-space-7); margin-bottom: var(--sl-space-6); }
+  .row { display: flex; gap: var(--sl-space-4); flex-wrap: wrap; align-items: center; }
+  .btn { font: var(--sl-font-weight-semibold) var(--sl-font-size-base) var(--sl-font-family-body); padding: var(--sl-space-4) var(--sl-space-6); border-radius: var(--sl-radius-md); border: 1px solid transparent; }
+  .p { background: var(--sl-color-action-primary-bg); color: var(--sl-color-action-primary-text); }
+  .a { background: var(--sl-color-action-accent-bg); color: var(--sl-color-action-accent-text); }
+  .s { background: var(--sl-color-action-secondary-bg); color: var(--sl-color-action-secondary-text); border-color: var(--sl-color-action-secondary-border); }
+  .f { box-shadow: var(--sl-shadow-focus); }
+  .tag { font: var(--sl-font-weight-semibold) var(--sl-font-size-xs) var(--sl-font-family-body); padding: var(--sl-space-2) var(--sl-space-4); border-radius: var(--sl-radius-full); }
+  .act { color: var(--sl-color-state-active); background: var(--sl-color-state-active-bg); }
+  .done { color: var(--sl-color-state-done); background: var(--sl-color-state-done-bg); }
+  .warn { color: var(--sl-color-status-warning); background: var(--sl-color-status-warning-bg); }
+  .err { color: var(--sl-color-status-error); background: var(--sl-color-status-error-bg); }
+  .info { color: var(--sl-color-status-info); background: var(--sl-color-status-info-bg); }
+  .lbl { font-size: var(--sl-font-size-xs); letter-spacing: var(--sl-letter-spacing-wide); text-transform: uppercase; color: var(--sl-color-text-secondary); margin-bottom: var(--sl-space-4); font-weight: var(--sl-font-weight-semibold); }
+  .tabs { display: flex; gap: var(--sl-space-7); border-bottom: 1px solid var(--sl-color-border-default); margin-bottom: var(--sl-space-6); }
+  .tabs span { padding-bottom: var(--sl-space-3); color: var(--sl-color-text-secondary); font-weight: var(--sl-font-weight-medium); }
+  .tabs .on { color: var(--sl-color-text-primary); border-bottom: 2px solid var(--sl-color-state-active-mark); }
+  .input { width: 100%; padding: var(--sl-space-4); border: 1px solid var(--sl-color-border-strong); border-radius: var(--sl-radius-md); background: var(--sl-color-bg-subtle); color: var(--sl-color-text-tertiary); font-size: var(--sl-font-size-base); margin-bottom: var(--sl-space-5); }
+  .bar { height: 8px; border-radius: var(--sl-radius-full); background: var(--sl-color-border-default); overflow: hidden; margin: var(--sl-space-3) 0; }
+  .bar i { display: block; height: 100%; width: 62%; background: var(--sl-color-state-active-fill); }
+  a { color: var(--sl-color-text-link); }
+  .top { background: var(--sl-color-bg-inverse); color: var(--sl-color-text-inverse); padding: var(--sl-space-4) var(--sl-space-6); border-radius: var(--sl-radius-md); font-weight: var(--sl-font-weight-semibold); margin-bottom: var(--sl-space-6); }
+</style>
+</head>
+<body>
+<template id="tpl">
+  <h1>İş İzinleri</h1>
+  <p class="sub">Açık aksiyonlar: 12 · Bu hafta kapanan: 31 · <a href="#">Tümünü gör</a></p>
+  <div class="top">Ters zemin · üst bar / tooltip</div>
+  <div class="card">
+    <div class="tabs"><span class="on">Çalışmada</span><span>Onay bekliyor</span><span>Kapandı</span></div>
+    <div class="lbl">Durum etiketleri</div>
+    <div class="row" style="margin-bottom:var(--sl-space-6)">
+      <span class="tag act">● Çalışmada</span><span class="tag done">✓ Kapandı</span>
+      <span class="tag warn">▲ Süresi yaklaşıyor</span><span class="tag err">✕ Reddedildi</span><span class="tag info">i Bilgi</span>
+    </div>
+    <div class="lbl">DF ilerlemesi · 62%</div>
+    <div class="bar"><i></i></div>
+  </div>
+  <div class="card">
+    <input class="input" placeholder="Şantiye, ekip ya da izin no ara…">
+    <div class="row">
+      <button class="btn p">Kaydet</button><button class="btn a">Yeni iş izni</button>
+      <button class="btn s">İptal</button><button class="btn s f">Odak</button>
+    </div>
+  </div>
+</template>
+<div class="t" data-theme="light"></div>
+<div class="t" data-theme="dark"></div>
+<script>
+  document.querySelectorAll('.t').forEach(t => t.append(document.getElementById('tpl').content.cloneNode(true)));
+</script>
+</body>
+</html>

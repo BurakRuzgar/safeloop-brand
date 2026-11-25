@@ -1,0 +1,821 @@
+{
+  "$description": "SafeLoop design tokens (W3C DTCG). Kaynak: tokens/src/build_tokens.py",
+  "color": {
+    "lacivert": {
+      "$type": "color",
+      "$value": "#0F1B2D"
+    },
+    "turkuaz": {
+      "$type": "color",
+      "$value": "#1FC7B4"
+    },
+    "turkuaz-koyu": {
+      "$type": "color",
+      "$value": "#0B7C71"
+    },
+    "arduvaz": {
+      "$type": "color",
+      "$value": "#566275"
+    },
+    "cizgi": {
+      "$type": "color",
+      "$value": "#DDE3EA"
+    },
+    "kagit": {
+      "$type": "color",
+      "$value": "#F5F7FA"
+    },
+    "beyaz": {
+      "$type": "color",
+      "$value": "#FFFFFF"
+    },
+    "basarili": {
+      "$type": "color",
+      "$value": "#1B7741"
+    },
+    "basarili-zemin": {
+      "$type": "color",
+      "$value": "#E5F3EA"
+    },
+    "uyari": {
+      "$type": "color",
+      "$value": "#A8570A"
+    },
+    "uyari-zemin": {
+      "$type": "color",
+      "$value": "#FCF0E1"
+    },
+    "hata": {
+      "$type": "color",
+      "$value": "#C0303C"
+    },
+    "hata-zemin": {
+      "$type": "color",
+      "$value": "#FBE9EB"
+    },
+    "lacivert-950": {
+      "$type": "color",
+      "$value": "#0A1320"
+    },
+    "lacivert-800": {
+      "$type": "color",
+      "$value": "#17263B"
+    },
+    "lacivert-700": {
+      "$type": "color",
+      "$value": "#22344D"
+    },
+    "lacivert-600": {
+      "$type": "color",
+      "$value": "#2E4361"
+    },
+    "sis": {
+      "$type": "color",
+      "$value": "#EEF1F5"
+    },
+    "duman": {
+      "$type": "color",
+      "$value": "#7A8699"
+    },
+    "buz": {
+      "$type": "color",
+      "$value": "#E8EDF3"
+    },
+    "gri-mavi": {
+      "$type": "color",
+      "$value": "#A3AEBD"
+    },
+    "gri-mavi-koyu": {
+      "$type": "color",
+      "$value": "#7D8A9D"
+    },
+    "turkuaz-acik": {
+      "$type": "color",
+      "$value": "#4FD6C6"
+    },
+    "turkuaz-hover": {
+      "$type": "color",
+      "$value": "#19B3A2"
+    },
+    "turkuaz-koyu-hover": {
+      "$type": "color",
+      "$value": "#096A61"
+    },
+    "turkuaz-zemin": {
+      "$type": "color",
+      "$value": "#E8F6F4"
+    },
+    "basarili-acik": {
+      "$type": "color",
+      "$value": "#5CC98A"
+    },
+    "basarili-zemin-koyu": {
+      "$type": "color",
+      "$value": "#10291C"
+    },
+    "uyari-acik": {
+      "$type": "color",
+      "$value": "#F0A54E"
+    },
+    "uyari-zemin-koyu": {
+      "$type": "color",
+      "$value": "#2E1F0D"
+    },
+    "hata-acik": {
+      "$type": "color",
+      "$value": "#F27A84"
+    },
+    "hata-zemin-koyu": {
+      "$type": "color",
+      "$value": "#2F1419"
+    }
+  },
+  "space": {
+    "0": {
+      "$type": "dimension",
+      "$value": "0px"
+    },
+    "1": {
+      "$type": "dimension",
+      "$value": "2px"
+    },
+    "2": {
+      "$type": "dimension",
+      "$value": "4px"
+    },
+    "3": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "4": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "5": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "6": {
+      "$type": "dimension",
+      "$value": "20px"
+    },
+    "7": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "8": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "9": {
+      "$type": "dimension",
+      "$value": "40px"
+    },
+    "10": {
+      "$type": "dimension",
+      "$value": "48px"
+    },
+    "11": {
+      "$type": "dimension",
+      "$value": "64px"
+    },
+    "12": {
+      "$type": "dimension",
+      "$value": "80px"
+    }
+  },
+  "font": {
+    "family": {
+      "display": {
+        "$type": "fontFamily",
+        "$value": "\"Plus Jakarta Sans\", Inter, system-ui, sans-serif"
+      },
+      "body": {
+        "$type": "fontFamily",
+        "$value": "Inter, system-ui, sans-serif"
+      },
+      "mono": {
+        "$type": "fontFamily",
+        "$value": "\"JetBrains Mono\", ui-monospace, \"SFMono-Regular\", Consolas, monospace"
+      }
+    },
+    "size": {
+      "xs": {
+        "$type": "dimension",
+        "$value": "12px"
+      },
+      "base": {
+        "$type": "dimension",
+        "$value": "15px"
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "19px"
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": "23px"
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "29px"
+      },
+      "2xl": {
+        "$type": "dimension",
+        "$value": "37px"
+      },
+      "3xl": {
+        "$type": "dimension",
+        "$value": "46px"
+      }
+    },
+    "weight": {
+      "normal": {
+        "$type": "fontWeight",
+        "$value": 400
+      },
+      "medium": {
+        "$type": "fontWeight",
+        "$value": 500
+      },
+      "semibold": {
+        "$type": "fontWeight",
+        "$value": 600
+      },
+      "bold": {
+        "$type": "fontWeight",
+        "$value": 700
+      },
+      "extrabold": {
+        "$type": "fontWeight",
+        "$value": 800
+      }
+    },
+    "line-height": {
+      "tight": {
+        "$type": "number",
+        "$value": 1.2
+      },
+      "snug": {
+        "$type": "number",
+        "$value": 1.35
+      },
+      "normal": {
+        "$type": "number",
+        "$value": 1.5
+      },
+      "relaxed": {
+        "$type": "number",
+        "$value": 1.65
+      }
+    },
+    "letter-spacing": {
+      "tight": {
+        "$type": "dimension",
+        "$value": "-0.02em"
+      },
+      "normal": {
+        "$type": "dimension",
+        "$value": "0"
+      },
+      "wide": {
+        "$type": "dimension",
+        "$value": "0.06em"
+      }
+    }
+  },
+  "radius": {
+    "sm": {
+      "$type": "dimension",
+      "$value": "4px"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "full": {
+      "$type": "dimension",
+      "$value": "9999px"
+    }
+  },
+  "duration": {
+    "instant": {
+      "$type": "duration",
+      "$value": "50ms"
+    },
+    "fast": {
+      "$type": "duration",
+      "$value": "150ms"
+    },
+    "normal": {
+      "$type": "duration",
+      "$value": "250ms"
+    },
+    "slow": {
+      "$type": "duration",
+      "$value": "400ms"
+    }
+  },
+  "easing": {
+    "default": {
+      "$type": "cubicBezier",
+      "$value": "cubic-bezier(0.4, 0, 0.2, 1)"
+    },
+    "in": {
+      "$type": "cubicBezier",
+      "$value": "cubic-bezier(0.4, 0, 1, 1)"
+    },
+    "out": {
+      "$type": "cubicBezier",
+      "$value": "cubic-bezier(0, 0, 0.2, 1)"
+    }
+  },
+  "breakpoint": {
+    "sm": {
+      "$type": "dimension",
+      "$value": "375px"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "768px"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "1024px"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "1280px"
+    },
+    "2xl": {
+      "$type": "dimension",
+      "$value": "1536px"
+    }
+  },
+  "layout": {
+    "content": {
+      "$type": "dimension",
+      "$value": "720px"
+    },
+    "wide": {
+      "$type": "dimension",
+      "$value": "1120px"
+    },
+    "page": {
+      "$type": "dimension",
+      "$value": "1440px"
+    },
+    "sidebar": {
+      "$type": "dimension",
+      "$value": "264px"
+    },
+    "topbar": {
+      "$type": "dimension",
+      "$value": "56px"
+    }
+  },
+  "theme": {
+    "light": {
+      "color": {
+        "bg-app": {
+          "$type": "color",
+          "$value": "{color.kagit}",
+          "$description": "Uygulama arka planı"
+        },
+        "bg-surface": {
+          "$type": "color",
+          "$value": "{color.beyaz}",
+          "$description": "Kart, panel, tablo"
+        },
+        "bg-surface-raised": {
+          "$type": "color",
+          "$value": "{color.beyaz}",
+          "$description": "Modal, menü, açılır pencere"
+        },
+        "bg-subtle": {
+          "$type": "color",
+          "$value": "{color.sis}",
+          "$description": "Input, kuyu, satır hover"
+        },
+        "bg-inverse": {
+          "$type": "color",
+          "$value": "{color.lacivert}",
+          "$description": "Ters zemin (üst bar, tooltip)"
+        },
+        "text-primary": {
+          "$type": "color",
+          "$value": "{color.lacivert}",
+          "$description": "Ana metin, başlık"
+        },
+        "text-secondary": {
+          "$type": "color",
+          "$value": "{color.arduvaz}",
+          "$description": "İkincil metin, etiket"
+        },
+        "text-tertiary": {
+          "$type": "color",
+          "$value": "{color.duman}",
+          "$description": "Placeholder, pasif (yalnız ≥ 3:1 gereken yerler)"
+        },
+        "text-inverse": {
+          "$type": "color",
+          "$value": "{color.beyaz}",
+          "$description": "Ters zemin üstündeki metin"
+        },
+        "text-link": {
+          "$type": "color",
+          "$value": "{color.turkuaz-koyu}",
+          "$description": "Bağlantı ve aksan metni"
+        },
+        "text-link-hover": {
+          "$type": "color",
+          "$value": "{color.turkuaz-koyu-hover}",
+          "$description": "Bağlantı hover"
+        },
+        "border-default": {
+          "$type": "color",
+          "$value": "{color.cizgi}",
+          "$description": "Kenarlık, ayraç"
+        },
+        "border-strong": {
+          "$type": "color",
+          "$value": "{color.arduvaz}",
+          "$description": "Input kenarlığı (≥ 3:1)"
+        },
+        "border-focus": {
+          "$type": "color",
+          "$value": "{color.turkuaz-koyu}",
+          "$description": "Odak halkası"
+        },
+        "action-primary-bg": {
+          "$type": "color",
+          "$value": "{color.lacivert}",
+          "$description": "Birincil buton zemini"
+        },
+        "action-primary-bg-hover": {
+          "$type": "color",
+          "$value": "{color.lacivert-800}",
+          "$description": "Birincil buton hover"
+        },
+        "action-primary-bg-active": {
+          "$type": "color",
+          "$value": "{color.lacivert-600}",
+          "$description": "Birincil buton basılı"
+        },
+        "action-primary-text": {
+          "$type": "color",
+          "$value": "{color.beyaz}",
+          "$description": "Birincil buton metni"
+        },
+        "action-accent-bg": {
+          "$type": "color",
+          "$value": "{color.turkuaz}",
+          "$description": "Vurgu butonu (ekranda tek)"
+        },
+        "action-accent-bg-hover": {
+          "$type": "color",
+          "$value": "{color.turkuaz-hover}",
+          "$description": "Vurgu butonu hover"
+        },
+        "action-accent-text": {
+          "$type": "color",
+          "$value": "{color.lacivert}",
+          "$description": "Vurgu butonu metni"
+        },
+        "action-secondary-bg": {
+          "$type": "color",
+          "$value": "{color.beyaz}",
+          "$description": "İkincil buton zemini"
+        },
+        "action-secondary-border": {
+          "$type": "color",
+          "$value": "{color.cizgi}",
+          "$description": "İkincil buton kenarı"
+        },
+        "action-secondary-text": {
+          "$type": "color",
+          "$value": "{color.lacivert}",
+          "$description": "İkincil buton metni"
+        },
+        "state-active": {
+          "$type": "color",
+          "$value": "{color.turkuaz-koyu}",
+          "$description": "Aktif / devam eden (metin, ikon)"
+        },
+        "state-active-mark": {
+          "$type": "color",
+          "$value": "{color.turkuaz-koyu}",
+          "$description": "Aktif sekme çizgisi, ilerleme, nokta (beyazda 3:1 için açıkta Koyu)"
+        },
+        "state-active-fill": {
+          "$type": "color",
+          "$value": "{color.turkuaz}",
+          "$description": "Geniş dolgu: grafik alanı, ilerleme çubuğu (yanında metin şart)"
+        },
+        "state-active-bg": {
+          "$type": "color",
+          "$value": "{color.turkuaz-zemin}",
+          "$description": "Aktif etiket zemini"
+        },
+        "state-done": {
+          "$type": "color",
+          "$value": "{color.basarili}",
+          "$description": "Yalnız tamamlandı / kapandı"
+        },
+        "state-done-bg": {
+          "$type": "color",
+          "$value": "{color.basarili-zemin}",
+          "$description": "Kapandı etiket zemini"
+        },
+        "status-success": {
+          "$type": "color",
+          "$value": "{color.basarili}",
+          "$description": "Başarılı mesaj (= state-done)"
+        },
+        "status-success-bg": {
+          "$type": "color",
+          "$value": "{color.basarili-zemin}"
+        },
+        "status-warning": {
+          "$type": "color",
+          "$value": "{color.uyari}",
+          "$description": "Uyarı (yalnız arayüz)"
+        },
+        "status-warning-bg": {
+          "$type": "color",
+          "$value": "{color.uyari-zemin}"
+        },
+        "status-error": {
+          "$type": "color",
+          "$value": "{color.hata}",
+          "$description": "Hata"
+        },
+        "status-error-bg": {
+          "$type": "color",
+          "$value": "{color.hata-zemin}"
+        },
+        "status-info": {
+          "$type": "color",
+          "$value": "{color.lacivert}",
+          "$description": "Bilgi (ayrı mavi yok)"
+        },
+        "status-info-bg": {
+          "$type": "color",
+          "$value": "{color.sis}"
+        },
+        "logo-fill": {
+          "$type": "color",
+          "$value": "{color.lacivert}",
+          "$description": "Logo rengi (koyuda ters kutu dosyaları)"
+        },
+        "overlay": {
+          "$type": "color",
+          "$value": "rgba(15, 27, 45, 0.48)"
+        }
+      },
+      "shadow": {
+        "sm": {
+          "$type": "shadow",
+          "$value": "0 1px 2px rgba(15, 27, 45, 0.06)"
+        },
+        "md": {
+          "$type": "shadow",
+          "$value": "0 2px 8px rgba(15, 27, 45, 0.08), 0 1px 2px rgba(15, 27, 45, 0.04)"
+        },
+        "lg": {
+          "$type": "shadow",
+          "$value": "0 12px 32px rgba(15, 27, 45, 0.12), 0 2px 6px rgba(15, 27, 45, 0.06)"
+        },
+        "focus": {
+          "$type": "shadow",
+          "$value": "0 0 0 2px #FFFFFF, 0 0 0 4px #0B7C71"
+        }
+      }
+    },
+    "dark": {
+      "color": {
+        "bg-app": {
+          "$type": "color",
+          "$value": "{color.lacivert-950}",
+          "$description": "Uygulama arka planı"
+        },
+        "bg-surface": {
+          "$type": "color",
+          "$value": "{color.lacivert}",
+          "$description": "Kart, panel, tablo"
+        },
+        "bg-surface-raised": {
+          "$type": "color",
+          "$value": "{color.lacivert-800}",
+          "$description": "Modal, menü, açılır pencere"
+        },
+        "bg-subtle": {
+          "$type": "color",
+          "$value": "{color.lacivert-800}",
+          "$description": "Input, kuyu, satır hover"
+        },
+        "bg-inverse": {
+          "$type": "color",
+          "$value": "{color.buz}",
+          "$description": "Ters zemin (üst bar, tooltip)"
+        },
+        "text-primary": {
+          "$type": "color",
+          "$value": "{color.buz}",
+          "$description": "Ana metin, başlık"
+        },
+        "text-secondary": {
+          "$type": "color",
+          "$value": "{color.gri-mavi}",
+          "$description": "İkincil metin, etiket"
+        },
+        "text-tertiary": {
+          "$type": "color",
+          "$value": "{color.gri-mavi-koyu}",
+          "$description": "Placeholder, pasif (yalnız ≥ 3:1 gereken yerler)"
+        },
+        "text-inverse": {
+          "$type": "color",
+          "$value": "{color.lacivert}",
+          "$description": "Ters zemin üstündeki metin"
+        },
+        "text-link": {
+          "$type": "color",
+          "$value": "{color.turkuaz}",
+          "$description": "Bağlantı ve aksan metni"
+        },
+        "text-link-hover": {
+          "$type": "color",
+          "$value": "{color.turkuaz-acik}",
+          "$description": "Bağlantı hover"
+        },
+        "border-default": {
+          "$type": "color",
+          "$value": "{color.lacivert-700}",
+          "$description": "Kenarlık, ayraç"
+        },
+        "border-strong": {
+          "$type": "color",
+          "$value": "{color.gri-mavi-koyu}",
+          "$description": "Input kenarlığı (≥ 3:1)"
+        },
+        "border-focus": {
+          "$type": "color",
+          "$value": "{color.turkuaz}",
+          "$description": "Odak halkası"
+        },
+        "action-primary-bg": {
+          "$type": "color",
+          "$value": "{color.buz}",
+          "$description": "Birincil buton zemini"
+        },
+        "action-primary-bg-hover": {
+          "$type": "color",
+          "$value": "{color.beyaz}",
+          "$description": "Birincil buton hover"
+        },
+        "action-primary-bg-active": {
+          "$type": "color",
+          "$value": "{color.cizgi}",
+          "$description": "Birincil buton basılı"
+        },
+        "action-primary-text": {
+          "$type": "color",
+          "$value": "{color.lacivert}",
+          "$description": "Birincil buton metni"
+        },
+        "action-accent-bg": {
+          "$type": "color",
+          "$value": "{color.turkuaz}",
+          "$description": "Vurgu butonu (ekranda tek)"
+        },
+        "action-accent-bg-hover": {
+          "$type": "color",
+          "$value": "{color.turkuaz-acik}",
+          "$description": "Vurgu butonu hover"
+        },
+        "action-accent-text": {
+          "$type": "color",
+          "$value": "{color.lacivert}",
+          "$description": "Vurgu butonu metni"
+        },
+        "action-secondary-bg": {
+          "$type": "color",
+          "$value": "{color.lacivert}",
+          "$description": "İkincil buton zemini"
+        },
+        "action-secondary-border": {
+          "$type": "color",
+          "$value": "{color.lacivert-700}",
+          "$description": "İkincil buton kenarı"
+        },
+        "action-secondary-text": {
+          "$type": "color",
+          "$value": "{color.buz}",
+          "$description": "İkincil buton metni"
+        },
+        "state-active": {
+          "$type": "color",
+          "$value": "{color.turkuaz}",
+          "$description": "Aktif / devam eden (metin, ikon)"
+        },
+        "state-active-mark": {
+          "$type": "color",
+          "$value": "{color.turkuaz}",
+          "$description": "Aktif sekme çizgisi, ilerleme, nokta (beyazda 3:1 için açıkta Koyu)"
+        },
+        "state-active-fill": {
+          "$type": "color",
+          "$value": "{color.turkuaz}",
+          "$description": "Geniş dolgu: grafik alanı, ilerleme çubuğu (yanında metin şart)"
+        },
+        "state-active-bg": {
+          "$type": "color",
+          "$value": "{color.lacivert-800}",
+          "$description": "Aktif etiket zemini"
+        },
+        "state-done": {
+          "$type": "color",
+          "$value": "{color.basarili-acik}",
+          "$description": "Yalnız tamamlandı / kapandı"
+        },
+        "state-done-bg": {
+          "$type": "color",
+          "$value": "{color.basarili-zemin-koyu}",
+          "$description": "Kapandı etiket zemini"
+        },
+        "status-success": {
+          "$type": "color",
+          "$value": "{color.basarili-acik}",
+          "$description": "Başarılı mesaj (= state-done)"
+        },
+        "status-success-bg": {
+          "$type": "color",
+          "$value": "{color.basarili-zemin-koyu}"
+        },
+        "status-warning": {
+          "$type": "color",
+          "$value": "{color.uyari-acik}",
+          "$description": "Uyarı (yalnız arayüz)"
+        },
+        "status-warning-bg": {
+          "$type": "color",
+          "$value": "{color.uyari-zemin-koyu}"
+        },
+        "status-error": {
+          "$type": "color",
+          "$value": "{color.hata-acik}",
+          "$description": "Hata"
+        },
+        "status-error-bg": {
+          "$type": "color",
+          "$value": "{color.hata-zemin-koyu}"
+        },
+        "status-info": {
+          "$type": "color",
+          "$value": "{color.buz}",
+          "$description": "Bilgi (ayrı mavi yok)"
+        },
+        "status-info-bg": {
+          "$type": "color",
+          "$value": "{color.lacivert-800}"
+        },
+        "logo-fill": {
+          "$type": "color",
+          "$value": "{color.beyaz}",
+          "$description": "Logo rengi (koyuda ters kutu dosyaları)"
+        },
+        "overlay": {
+          "$type": "color",
+          "$value": "rgba(4, 8, 14, 0.64)"
+        }
+      },
+      "shadow": {
+        "sm": {
+          "$type": "shadow",
+          "$value": "0 1px 2px rgba(0, 0, 0, 0.40)"
+        },
+        "md": {
+          "$type": "shadow",
+          "$value": "0 2px 8px rgba(0, 0, 0, 0.45)"
+        },
+        "lg": {
+          "$type": "shadow",
+          "$value": "0 12px 32px rgba(0, 0, 0, 0.55)"
+        },
+        "focus": {
+          "$type": "shadow",
+          "$value": "0 0 0 2px #0F1B2D, 0 0 0 4px #1FC7B4"
+        }
+      }
+    }
+  }
+}

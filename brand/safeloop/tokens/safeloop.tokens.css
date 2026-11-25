@@ -1,0 +1,303 @@
+/* SafeLoop design tokens — Aşama 5
+   Üretici: tokens/src/build_tokens.py (elle düzenlemeyin)
+   Önek: --sl-  ·  Bileşenler yalnız --sl-color-* semantic token'larını kullanır;
+   primitive (--sl-lacivert vb.) doğrudan kullanılmaz.
+   Tema: <html data-theme="dark"> ya da sistem tercihi. */
+
+:root {
+  /* primitive renkler */
+  --sl-lacivert: #0F1B2D;
+  --sl-turkuaz: #1FC7B4;
+  --sl-turkuaz-koyu: #0B7C71;
+  --sl-arduvaz: #566275;
+  --sl-cizgi: #DDE3EA;
+  --sl-kagit: #F5F7FA;
+  --sl-beyaz: #FFFFFF;
+  --sl-basarili: #1B7741;
+  --sl-basarili-zemin: #E5F3EA;
+  --sl-uyari: #A8570A;
+  --sl-uyari-zemin: #FCF0E1;
+  --sl-hata: #C0303C;
+  --sl-hata-zemin: #FBE9EB;
+  --sl-lacivert-950: #0A1320;
+  --sl-lacivert-800: #17263B;
+  --sl-lacivert-700: #22344D;
+  --sl-lacivert-600: #2E4361;
+  --sl-sis: #EEF1F5;
+  --sl-duman: #7A8699;
+  --sl-buz: #E8EDF3;
+  --sl-gri-mavi: #A3AEBD;
+  --sl-gri-mavi-koyu: #7D8A9D;
+  --sl-turkuaz-acik: #4FD6C6;
+  --sl-turkuaz-hover: #19B3A2;
+  --sl-turkuaz-koyu-hover: #096A61;
+  --sl-turkuaz-zemin: #E8F6F4;
+  --sl-basarili-acik: #5CC98A;
+  --sl-basarili-zemin-koyu: #10291C;
+  --sl-uyari-acik: #F0A54E;
+  --sl-uyari-zemin-koyu: #2E1F0D;
+  --sl-hata-acik: #F27A84;
+  --sl-hata-zemin-koyu: #2F1419;
+
+  /* boşluk (4 px taban) */
+  --sl-space-0: 0;
+  --sl-space-1: 2px;
+  --sl-space-2: 4px;
+  --sl-space-3: 8px;
+  --sl-space-4: 12px;
+  --sl-space-5: 16px;
+  --sl-space-6: 20px;
+  --sl-space-7: 24px;
+  --sl-space-8: 32px;
+  --sl-space-9: 40px;
+  --sl-space-10: 48px;
+  --sl-space-11: 64px;
+  --sl-space-12: 80px;
+
+  /* tipografi */
+  --sl-font-family-display: "Plus Jakarta Sans", Inter, system-ui, sans-serif;
+  --sl-font-family-body: Inter, system-ui, sans-serif;
+  --sl-font-family-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Consolas, monospace;
+  --sl-font-size-xs: 0.75rem; /* 12px */
+  --sl-font-size-base: 0.9375rem; /* 15px */
+  --sl-font-size-md: 1.188rem; /* 19px */
+  --sl-font-size-lg: 1.438rem; /* 23px */
+  --sl-font-size-xl: 1.812rem; /* 29px */
+  --sl-font-size-2xl: 2.312rem; /* 37px */
+  --sl-font-size-3xl: 2.875rem; /* 46px */
+  --sl-font-weight-normal: 400;
+  --sl-font-weight-medium: 500;
+  --sl-font-weight-semibold: 600;
+  --sl-font-weight-bold: 700;
+  --sl-font-weight-extrabold: 800;
+  --sl-line-height-tight: 1.2;
+  --sl-line-height-snug: 1.35;
+  --sl-line-height-normal: 1.5;
+  --sl-line-height-relaxed: 1.65;
+  --sl-letter-spacing-tight: -0.02em;
+  --sl-letter-spacing-normal: 0;
+  --sl-letter-spacing-wide: 0.06em;
+
+  /* biçim, hareket, yerleşim */
+  --sl-radius-sm: 4px;
+  --sl-radius-md: 8px;
+  --sl-radius-lg: 12px;
+  --sl-radius-xl: 16px;
+  --sl-radius-full: 9999px;
+  --sl-duration-instant: 50ms;
+  --sl-duration-fast: 150ms;
+  --sl-duration-normal: 250ms;
+  --sl-duration-slow: 400ms;
+  --sl-easing-default: cubic-bezier(0.4, 0, 0.2, 1);
+  --sl-easing-in: cubic-bezier(0.4, 0, 1, 1);
+  --sl-easing-out: cubic-bezier(0, 0, 0.2, 1);
+  --sl-max-width-content: 720px;
+  --sl-max-width-wide: 1120px;
+  --sl-max-width-page: 1440px;
+  --sl-size-sidebar: 264px;
+  --sl-size-topbar: 56px;
+  /* kırılım noktaları CSS değişkeniyle media query'de çalışmaz; referans: */
+  /* sm 375px · md 768px · lg 1024px · xl 1280px · 2xl 1536px */
+
+  /* açık tema (varsayılan) */
+  color-scheme: light;
+  --sl-color-bg-app: var(--sl-kagit);
+  --sl-color-bg-surface: var(--sl-beyaz);
+  --sl-color-bg-surface-raised: var(--sl-beyaz);
+  --sl-color-bg-subtle: var(--sl-sis);
+  --sl-color-bg-inverse: var(--sl-lacivert);
+  --sl-color-text-primary: var(--sl-lacivert);
+  --sl-color-text-secondary: var(--sl-arduvaz);
+  --sl-color-text-tertiary: var(--sl-duman);
+  --sl-color-text-inverse: var(--sl-beyaz);
+  --sl-color-text-link: var(--sl-turkuaz-koyu);
+  --sl-color-text-link-hover: var(--sl-turkuaz-koyu-hover);
+  --sl-color-border-default: var(--sl-cizgi);
+  --sl-color-border-strong: var(--sl-arduvaz);
+  --sl-color-border-focus: var(--sl-turkuaz-koyu);
+  --sl-color-action-primary-bg: var(--sl-lacivert);
+  --sl-color-action-primary-bg-hover: var(--sl-lacivert-800);
+  --sl-color-action-primary-bg-active: var(--sl-lacivert-600);
+  --sl-color-action-primary-text: var(--sl-beyaz);
+  --sl-color-action-accent-bg: var(--sl-turkuaz);
+  --sl-color-action-accent-bg-hover: var(--sl-turkuaz-hover);
+  --sl-color-action-accent-text: var(--sl-lacivert);
+  --sl-color-action-secondary-bg: var(--sl-beyaz);
+  --sl-color-action-secondary-border: var(--sl-cizgi);
+  --sl-color-action-secondary-text: var(--sl-lacivert);
+  --sl-color-state-active: var(--sl-turkuaz-koyu);
+  --sl-color-state-active-mark: var(--sl-turkuaz-koyu);
+  --sl-color-state-active-fill: var(--sl-turkuaz);
+  --sl-color-state-active-bg: var(--sl-turkuaz-zemin);
+  --sl-color-state-done: var(--sl-basarili);
+  --sl-color-state-done-bg: var(--sl-basarili-zemin);
+  --sl-color-status-success: var(--sl-basarili);
+  --sl-color-status-success-bg: var(--sl-basarili-zemin);
+  --sl-color-status-warning: var(--sl-uyari);
+  --sl-color-status-warning-bg: var(--sl-uyari-zemin);
+  --sl-color-status-error: var(--sl-hata);
+  --sl-color-status-error-bg: var(--sl-hata-zemin);
+  --sl-color-status-info: var(--sl-lacivert);
+  --sl-color-status-info-bg: var(--sl-sis);
+  --sl-color-logo-fill: var(--sl-lacivert);
+  --sl-color-overlay: rgba(15, 27, 45, 0.48);
+  --sl-shadow-sm: 0 1px 2px rgba(15, 27, 45, 0.06);
+  --sl-shadow-md: 0 2px 8px rgba(15, 27, 45, 0.08), 0 1px 2px rgba(15, 27, 45, 0.04);
+  --sl-shadow-lg: 0 12px 32px rgba(15, 27, 45, 0.12), 0 2px 6px rgba(15, 27, 45, 0.06);
+  --sl-shadow-focus: 0 0 0 2px #FFFFFF, 0 0 0 4px #0B7C71;
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+  --sl-color-bg-app: var(--sl-kagit);
+  --sl-color-bg-surface: var(--sl-beyaz);
+  --sl-color-bg-surface-raised: var(--sl-beyaz);
+  --sl-color-bg-subtle: var(--sl-sis);
+  --sl-color-bg-inverse: var(--sl-lacivert);
+  --sl-color-text-primary: var(--sl-lacivert);
+  --sl-color-text-secondary: var(--sl-arduvaz);
+  --sl-color-text-tertiary: var(--sl-duman);
+  --sl-color-text-inverse: var(--sl-beyaz);
+  --sl-color-text-link: var(--sl-turkuaz-koyu);
+  --sl-color-text-link-hover: var(--sl-turkuaz-koyu-hover);
+  --sl-color-border-default: var(--sl-cizgi);
+  --sl-color-border-strong: var(--sl-arduvaz);
+  --sl-color-border-focus: var(--sl-turkuaz-koyu);
+  --sl-color-action-primary-bg: var(--sl-lacivert);
+  --sl-color-action-primary-bg-hover: var(--sl-lacivert-800);
+  --sl-color-action-primary-bg-active: var(--sl-lacivert-600);
+  --sl-color-action-primary-text: var(--sl-beyaz);
+  --sl-color-action-accent-bg: var(--sl-turkuaz);
+  --sl-color-action-accent-bg-hover: var(--sl-turkuaz-hover);
+  --sl-color-action-accent-text: var(--sl-lacivert);
+  --sl-color-action-secondary-bg: var(--sl-beyaz);
+  --sl-color-action-secondary-border: var(--sl-cizgi);
+  --sl-color-action-secondary-text: var(--sl-lacivert);
+  --sl-color-state-active: var(--sl-turkuaz-koyu);
+  --sl-color-state-active-mark: var(--sl-turkuaz-koyu);
+  --sl-color-state-active-fill: var(--sl-turkuaz);
+  --sl-color-state-active-bg: var(--sl-turkuaz-zemin);
+  --sl-color-state-done: var(--sl-basarili);
+  --sl-color-state-done-bg: var(--sl-basarili-zemin);
+  --sl-color-status-success: var(--sl-basarili);
+  --sl-color-status-success-bg: var(--sl-basarili-zemin);
+  --sl-color-status-warning: var(--sl-uyari);
+  --sl-color-status-warning-bg: var(--sl-uyari-zemin);
+  --sl-color-status-error: var(--sl-hata);
+  --sl-color-status-error-bg: var(--sl-hata-zemin);
+  --sl-color-status-info: var(--sl-lacivert);
+  --sl-color-status-info-bg: var(--sl-sis);
+  --sl-color-logo-fill: var(--sl-lacivert);
+  --sl-color-overlay: rgba(15, 27, 45, 0.48);
+  --sl-shadow-sm: 0 1px 2px rgba(15, 27, 45, 0.06);
+  --sl-shadow-md: 0 2px 8px rgba(15, 27, 45, 0.08), 0 1px 2px rgba(15, 27, 45, 0.04);
+  --sl-shadow-lg: 0 12px 32px rgba(15, 27, 45, 0.12), 0 2px 6px rgba(15, 27, 45, 0.06);
+  --sl-shadow-focus: 0 0 0 2px #FFFFFF, 0 0 0 4px #0B7C71;
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --sl-color-bg-app: var(--sl-lacivert-950);
+  --sl-color-bg-surface: var(--sl-lacivert);
+  --sl-color-bg-surface-raised: var(--sl-lacivert-800);
+  --sl-color-bg-subtle: var(--sl-lacivert-800);
+  --sl-color-bg-inverse: var(--sl-buz);
+  --sl-color-text-primary: var(--sl-buz);
+  --sl-color-text-secondary: var(--sl-gri-mavi);
+  --sl-color-text-tertiary: var(--sl-gri-mavi-koyu);
+  --sl-color-text-inverse: var(--sl-lacivert);
+  --sl-color-text-link: var(--sl-turkuaz);
+  --sl-color-text-link-hover: var(--sl-turkuaz-acik);
+  --sl-color-border-default: var(--sl-lacivert-700);
+  --sl-color-border-strong: var(--sl-gri-mavi-koyu);
+  --sl-color-border-focus: var(--sl-turkuaz);
+  --sl-color-action-primary-bg: var(--sl-buz);
+  --sl-color-action-primary-bg-hover: var(--sl-beyaz);
+  --sl-color-action-primary-bg-active: var(--sl-cizgi);
+  --sl-color-action-primary-text: var(--sl-lacivert);
+  --sl-color-action-accent-bg: var(--sl-turkuaz);
+  --sl-color-action-accent-bg-hover: var(--sl-turkuaz-acik);
+  --sl-color-action-accent-text: var(--sl-lacivert);
+  --sl-color-action-secondary-bg: var(--sl-lacivert);
+  --sl-color-action-secondary-border: var(--sl-lacivert-700);
+  --sl-color-action-secondary-text: var(--sl-buz);
+  --sl-color-state-active: var(--sl-turkuaz);
+  --sl-color-state-active-mark: var(--sl-turkuaz);
+  --sl-color-state-active-fill: var(--sl-turkuaz);
+  --sl-color-state-active-bg: var(--sl-lacivert-800);
+  --sl-color-state-done: var(--sl-basarili-acik);
+  --sl-color-state-done-bg: var(--sl-basarili-zemin-koyu);
+  --sl-color-status-success: var(--sl-basarili-acik);
+  --sl-color-status-success-bg: var(--sl-basarili-zemin-koyu);
+  --sl-color-status-warning: var(--sl-uyari-acik);
+  --sl-color-status-warning-bg: var(--sl-uyari-zemin-koyu);
+  --sl-color-status-error: var(--sl-hata-acik);
+  --sl-color-status-error-bg: var(--sl-hata-zemin-koyu);
+  --sl-color-status-info: var(--sl-buz);
+  --sl-color-status-info-bg: var(--sl-lacivert-800);
+  --sl-color-logo-fill: var(--sl-beyaz);
+  --sl-color-overlay: rgba(4, 8, 14, 0.64);
+  --sl-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.40);
+  --sl-shadow-md: 0 2px 8px rgba(0, 0, 0, 0.45);
+  --sl-shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.55);
+  --sl-shadow-focus: 0 0 0 2px #0F1B2D, 0 0 0 4px #1FC7B4;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --sl-color-bg-app: var(--sl-lacivert-950);
+    --sl-color-bg-surface: var(--sl-lacivert);
+    --sl-color-bg-surface-raised: var(--sl-lacivert-800);
+    --sl-color-bg-subtle: var(--sl-lacivert-800);
+    --sl-color-bg-inverse: var(--sl-buz);
+    --sl-color-text-primary: var(--sl-buz);
+    --sl-color-text-secondary: var(--sl-gri-mavi);
+    --sl-color-text-tertiary: var(--sl-gri-mavi-koyu);
+    --sl-color-text-inverse: var(--sl-lacivert);
+    --sl-color-text-link: var(--sl-turkuaz);
+    --sl-color-text-link-hover: var(--sl-turkuaz-acik);
+    --sl-color-border-default: var(--sl-lacivert-700);
+    --sl-color-border-strong: var(--sl-gri-mavi-koyu);
+    --sl-color-border-focus: var(--sl-turkuaz);
+    --sl-color-action-primary-bg: var(--sl-buz);
+    --sl-color-action-primary-bg-hover: var(--sl-beyaz);
+    --sl-color-action-primary-bg-active: var(--sl-cizgi);
+    --sl-color-action-primary-text: var(--sl-lacivert);
+    --sl-color-action-accent-bg: var(--sl-turkuaz);
+    --sl-color-action-accent-bg-hover: var(--sl-turkuaz-acik);
+    --sl-color-action-accent-text: var(--sl-lacivert);
+    --sl-color-action-secondary-bg: var(--sl-lacivert);
+    --sl-color-action-secondary-border: var(--sl-lacivert-700);
+    --sl-color-action-secondary-text: var(--sl-buz);
+    --sl-color-state-active: var(--sl-turkuaz);
+    --sl-color-state-active-mark: var(--sl-turkuaz);
+    --sl-color-state-active-fill: var(--sl-turkuaz);
+    --sl-color-state-active-bg: var(--sl-lacivert-800);
+    --sl-color-state-done: var(--sl-basarili-acik);
+    --sl-color-state-done-bg: var(--sl-basarili-zemin-koyu);
+    --sl-color-status-success: var(--sl-basarili-acik);
+    --sl-color-status-success-bg: var(--sl-basarili-zemin-koyu);
+    --sl-color-status-warning: var(--sl-uyari-acik);
+    --sl-color-status-warning-bg: var(--sl-uyari-zemin-koyu);
+    --sl-color-status-error: var(--sl-hata-acik);
+    --sl-color-status-error-bg: var(--sl-hata-zemin-koyu);
+    --sl-color-status-info: var(--sl-buz);
+    --sl-color-status-info-bg: var(--sl-lacivert-800);
+    --sl-color-logo-fill: var(--sl-beyaz);
+    --sl-color-overlay: rgba(4, 8, 14, 0.64);
+    --sl-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.40);
+    --sl-shadow-md: 0 2px 8px rgba(0, 0, 0, 0.45);
+    --sl-shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.55);
+    --sl-shadow-focus: 0 0 0 2px #0F1B2D, 0 0 0 4px #1FC7B4;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --sl-duration-instant: 0ms;
+    --sl-duration-fast: 0ms;
+    --sl-duration-normal: 0ms;
+    --sl-duration-slow: 0ms;
+  }
+}
