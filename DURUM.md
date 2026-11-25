@@ -39,6 +39,11 @@
   - Marka kılavuzu: guidelines/06-marka-kilavuzu.md (sürümler, boyuta göre kesim, boş alan, renk, yapılmayacaklar, dosya listesi, <head> kodu, token bağlantısı)
   - Üretici: final/src/build_final.py → render_final.py · ttf.py (bağımlılıksız font→path) · fonts/PlusJakartaSans-SemiBold.ttf + OFL.txt
   - Doğrulama: outline ile stroke farkı yalnız kenar yumuşatması (piksel fark testi); SVG'lerde stroke/text yok.
+- **PDF marka kılavuzu tamamlandı ve onaylandı:** brand/safeloop/guidelines/SafeLoop-Marka-Kilavuzu.pdf (A4, 9 sayfa)
+  - 04-marka-kiti.md + 06-marka-kilavuzu.md birleştirildi; logolar final/svg/'den vektör olarak gömülü.
+  - Sayfalar: kapak · marka · logo sürümleri · boyut/kesim/boş alan · renk sürümleri · palet ve durum renkleri · tipografi · kullanım ve yapılmayacaklar (görsel örnekli) · dosyalar/web/token'lar/açık konular.
+  - 04'teki eski dosya yolları (concepts-v2/devir/) PDF'e alınmadı; yerine final/ dosyaları anlatıldı.
+  - Üretici: guidelines/src/build_kilavuz_pdf.py (headless Chrome; Inter ve Plus Jakarta Sans Google Fonts'tan yükleniyor, ağ gerekli).
 
 ## Yapılmadı
 - (yok — tüm aşamalar tamamlandı)
