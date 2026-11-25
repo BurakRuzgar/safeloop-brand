@@ -17,5 +17,6 @@
 1. Brief (design-brief): marka özü, 3–5 sıfat, kitle, rakip görsel analizi. Max 1 sayfa.
 2. Konseptler (logo-design): 4–5 farklı yaklaşım (wordmark, sembol+wordmark, S/SL monogram, soyut döngü). Her birine 1–2 cümle gerekçe. 16 px / tek renk / ters zemin test sayfası ve sunum panosu üret.
 3. İnceleme (design-review): seçilen konseptte okunabilirlik, özgünlük, ölçeklenme; gerekirse optik düzeltme.
-4. Marka kiti (brandkit): palet (HEX/RGB + kontrast oranları), Türkçe karakter destekli ücretsiz font, kullanım
-<!-- EKSİK: Metin burada kesildi. 4. aşamanın devamını ve varsa sonraki aşamaları ekle. -->
+4. Marka kiti (brandkit): palet (HEX/RGB + kontrast oranları), Türkçe karakter destekli ücretsiz font, kullanım kuralları.
+5. Token'lar (design-tokens): CSS değişkenleri + JSON, açık/koyu tema.
+6. Teslim: yatay/dikey lockup, sembol, "by Rüzgar Safety"li versiyon; renkli/siyah/beyaz; SVG + PNG (favicon.ico, 16/32, 192/512 PWA, 180 apple-touch-icon); marka kılavuzu (markdown).

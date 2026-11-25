@@ -1,0 +1,122 @@
+<!doctype html><html lang="tr"><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--lacivert:#0F1B2D;--turkuaz:#1FC7B4;--turkuaz-koyu:#0B7C71;--arduvaz:#566275;--cizgi:#DDE3EA;--kagit:#F5F7FA;--beyaz:#FFFFFF;
+--ok:#1B7741;--ok-z:#E5F3EA;--uy:#A8570A;--uy-z:#FCF0E1;--ht:#C0303C;--ht-z:#FBE9EB}
+*{box-sizing:border-box}
+body{margin:0;padding:36px;background:var(--kagit);color:var(--lacivert);font:15px/1.5 Inter,system-ui,sans-serif}
+h1,h2,h3{font-family:"Plus Jakarta Sans",Inter,sans-serif;margin:0}
+h1{font-size:28px;font-weight:800}h2{font-size:18px;font-weight:700;margin-bottom:14px}
+.sub{color:var(--arduvaz);margin:4px 0 26px}
+.sec{background:var(--beyaz);border:1px solid var(--cizgi);border-radius:14px;padding:22px 24px;margin-bottom:18px}
+.grid{display:grid;gap:14px}.g6{grid-template-columns:repeat(6,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g2{grid-template-columns:1.1fr 1fr}
+.sw{border-radius:10px;overflow:hidden;border:1px solid var(--cizgi)}
+.sw .c{height:86px;display:flex;align-items:flex-end;padding:8px 10px;font-weight:600;font-size:13px}
+.sw .m{padding:9px 10px;font-size:12px;color:var(--arduvaz);line-height:1.45}.sw .m b{color:var(--lacivert);font-size:13px}
+.lbl{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--arduvaz);font-weight:600;margin:0 0 8px}
+.st{display:flex;gap:10px;align-items:center;border-radius:10px;padding:12px;border:1px solid var(--cizgi)}
+.dot{width:40px;height:40px;border-radius:8px;flex:none}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:600;padding:3px 10px 3px 8px;border-radius:999px}
+.chip svg{width:14px;height:14px}
+.ok{background:var(--ok-z);color:var(--ok)}.uy{background:var(--uy-z);color:var(--uy)}.ht{background:var(--ht-z);color:var(--ht)}
+.btn{font:600 14px Inter,system-ui,sans-serif;border-radius:8px;padding:10px 16px;border:1px solid transparent;cursor:pointer}
+.b1{background:var(--lacivert);color:#fff}.b2{background:var(--turkuaz);color:var(--lacivert)}.b3{background:#fff;color:var(--lacivert);border-color:var(--cizgi)}
+.lnk{color:var(--turkuaz-koyu);font-weight:600;text-decoration:underline;text-underline-offset:3px}
+.type .h{font-family:"Plus Jakarta Sans",Inter,system-ui,sans-serif;font-weight:800;font-size:34px;line-height:1.15}
+.type .t{font-size:15px;max-width:520px}
+.scale{display:flex;gap:16px;align-items:baseline;color:var(--arduvaz);font-size:12px;margin-top:10px}
+.app{border-radius:14px;overflow:hidden;border:1px solid var(--cizgi);background:var(--kagit)}
+.bar{background:var(--lacivert);height:56px;display:flex;align-items:center;justify-content:space-between;padding:0 18px;color:#C9D2DE;font-size:13px}
+.bar .n{display:flex;gap:18px}.bar .n span.a{color:#fff;border-bottom:2px solid var(--turkuaz);padding-bottom:16px;margin-bottom:-18px}
+.body{padding:18px;display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.card{background:#fff;border:1px solid var(--cizgi);border-radius:12px;padding:16px}
+.card .top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.id{font:500 12px Inter,system-ui,sans-serif;color:var(--arduvaz)}.card h3{font-size:16px;margin:2px 0 4px}
+.meta{font-size:13px;color:var(--arduvaz)}
+.steps{display:flex;gap:6px;margin:14px 0 8px}.steps i{flex:1;height:6px;border-radius:3px;background:var(--cizgi)}
+.steps i.d{background:var(--lacivert)}.steps i.c{background:var(--turkuaz)}
+.sl{display:flex;justify-content:space-between;font-size:11.5px;color:var(--arduvaz)}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.acts{display:flex;gap:8px;margin-top:14px}
+.alert{border-radius:10px;padding:10px 12px;font-size:13px;display:flex;gap:8px;align-items:flex-start;margin-top:12px}
+table{border-collapse:collapse;font-size:12.5px;width:100%}td,th{padding:6px 8px;border-bottom:1px solid var(--cizgi);text-align:left}th{color:var(--arduvaz);font-weight:600}
+.pass{color:var(--ok);font-weight:600}.fail{color:var(--ht);font-weight:600}
+</style>
+<body>
+<div style="display:flex;justify-content:space-between;align-items:flex-end">
+<div><h1>SafeLoop · Marka kiti</h1><p class="sub">Aşama 4 · palet, tipografi, kullanımda örnekler. Kontrast oranları WCAG 2.1'e göre hesaplandı.</p></div>
+<img src="../../concepts-v2/devir/lockup-box.svg" height="56" style="margin-bottom:26px">
+</div>
+
+<div class="sec"><h2>Marka paleti</h2>
+<div class="grid g6">
+ <div class="sw"><div class="c" style="background:#0F1B2D;color:#fff">Lacivert</div><div class="m"><b>#0F1B2D</b><br>RGB 15 27 45<br>Ana renk: logo, başlıklar, birincil buton, üst bar<br>Beyazda 17.3:1</div></div>
+ <div class="sw"><div class="c" style="background:#1FC7B4;color:#0F1B2D">Turkuaz</div><div class="m"><b>#1FC7B4</b><br>RGB 31 199 180<br>Aksan: vurgu butonu, aktif sekme, odak, grafik<br>Lacivertle 8.1:1 · metin olarak beyazda ✕</div></div>
+ <div class="sw"><div class="c" style="background:#0B7C71;color:#fff">Turkuaz Koyu</div><div class="m"><b>#0B7C71</b><br>RGB 11 124 113<br>Açık zeminde bağlantı ve aksan metni<br>Beyazda 5.1:1</div></div>
+ <div class="sw"><div class="c" style="background:#566275;color:#fff">Arduvaz</div><div class="m"><b>#566275</b><br>RGB 86 98 117<br>İkincil metin, etiket, açıklama<br>Beyazda 6.2:1</div></div>
+ <div class="sw"><div class="c" style="background:#DDE3EA">Çizgi</div><div class="m"><b>#DDE3EA</b><br>RGB 221 227 234<br>Kenarlık, ayraç, boş ilerleme<br>Metin için değil</div></div>
+ <div class="sw"><div class="c" style="background:#F5F7FA">Kâğıt</div><div class="m"><b>#F5F7FA</b><br>RGB 245 247 250<br>Uygulama arka planı; kartlar beyaz<br>Lacivert metin 16.1:1</div></div>
+</div>
+<p class="lbl" style="margin-top:22px">Uygulama durum renkleri · yalnız arayüzde, markada ve pazarlamada kullanılmaz</p>
+<div class="grid g3">
+ <div class="st"><div class="dot" style="background:#1B7741"></div><div><b>Başarılı #1B7741</b> · zemin #E5F3EA<br><span class="meta">Kendi zemininde 4.9:1 · beyazda 5.6:1</span></div></div>
+ <div class="st"><div class="dot" style="background:#A8570A"></div><div><b>Uyarı #A8570A</b> · zemin #FCF0E1<br><span class="meta">Kendi zemininde 4.6:1 · beyazda 5.2:1</span></div></div>
+ <div class="st"><div class="dot" style="background:#C0303C"></div><div><b>Hata #C0303C</b> · zemin #FBE9EB<br><span class="meta">Kendi zemininde 4.8:1 · beyazda 5.6:1</span></div></div>
+</div>
+</div>
+
+<div class="grid g2">
+<div class="sec type"><h2>Tipografi</h2>
+ <p class="lbl">Başlık · Plus Jakarta Sans 700/800 (SIL OFL)</p>
+ <div class="h">Her açılan aksiyon kapanır.</div>
+ <p class="lbl" style="margin-top:16px">Metin ve arayüz · Inter 400/500/600 (SIL OFL)</p>
+ <div class="t">İş izinleri, düzeltici faaliyetler ve ramak kala bildirimleri tek döngüde. Türkçe karakterler: ç ğ ı İ ö ş ü · Ç Ğ I İ Ö Ş Ü</div>
+ <div class="scale"><span style="font-size:12px">12</span><span style="font-size:15px">15</span><span style="font-size:19px">19</span><span style="font-size:23px">23</span><span style="font-size:29px">29</span><span style="font-size:37px">37</span><span>· oran 1.25, gövde 15 px</span></div>
+</div>
+<div class="sec"><h2>Butonlar ve durum etiketleri</h2>
+ <div class="row"><button class="btn b1">İzni kapat</button><button class="btn b2">Yeni iş izni</button><button class="btn b3">Detay</button><a class="lnk">Raporu indir</a></div>
+ <p class="meta" style="margin:8px 0 18px">Birincil: Lacivert · Vurgu (ekranda tek): Turkuaz + lacivert yazı · İkincil: beyaz + çizgi · Bağlantı: Turkuaz Koyu</p>
+ <div class="row">
+  <span class="chip ok"><svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="currentColor"/><path d="M5 8.2l2 2 4-4.2" stroke="#fff" stroke-width="1.8" fill="none"/></svg>Kapandı</span>
+  <span class="chip uy"><svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="currentColor"/><path d="M8 4.5v4.2M8 10.6v.9" stroke="#fff" stroke-width="1.8"/></svg>Süre doluyor</span>
+  <span class="chip ht"><svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="currentColor"/><path d="M5.6 5.6l4.8 4.8M10.4 5.6l-4.8 4.8" stroke="#fff" stroke-width="1.8"/></svg>Gaz ölçümü eksik</span>
+ </div>
+ <p class="meta" style="margin-top:8px">Durum her zaman renk + ikon + metinle gösterilir; yalnız renge güvenilmez.</p>
+</div>
+</div>
+
+<div class="sec"><h2>Uygulama ekranı parçası · İş İzinleri</h2>
+<div class="app">
+ <div class="bar"><img src="../../concepts-v2/devir/lockup-box-ters-small.svg" height="26"><div class="n"><span class="a">İş İzinleri</span><span>Düzeltici Faaliyet</span><span>Saha Bildirimleri</span><span>JSA</span></div><span>OSGB · Ankara</span></div>
+ <div class="body">
+  <div class="card">
+   <div class="top"><div><div class="id">İZN-2026-0142 · Sıcak çalışma</div><h3>Kaynak işi · Kazan dairesi B blok</h3><div class="meta">Sorumlu: M. Demir · 25.11.2026 08:00–16:00</div></div>
+   <span class="chip uy"><svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="currentColor"/><path d="M8 4.5v4.2M8 10.6v.9" stroke="#fff" stroke-width="1.8"/></svg>Süre doluyor</span></div>
+   <div class="steps"><i class="d"></i><i class="d"></i><i class="c"></i><i></i></div>
+   <div class="sl"><span>Açıldı</span><span>Onaylandı</span><span><b style="color:#0B7C71">Çalışmada</b></span><span>Kapanış</span></div>
+   <div class="alert ht"><b>!</b><span>Gaz ölçümü kaydı eksik. İzin kapatılamaz.</span></div>
+   <div class="acts"><button class="btn b1">Ölçüm ekle</button><button class="btn b3">Detay</button></div>
+  </div>
+  <div class="card">
+   <div class="top"><div><div class="id">İZN-2026-0139 · Yüksekte çalışma</div><h3>Çatı bakımı · Üretim hattı 2</h3><div class="meta">Sorumlu: A. Kaya · 24.11.2026 09:00–12:00</div></div>
+   <span class="chip ok"><svg viewBox="0 0 16 16"><circle cx="8" cy="8" r="7" fill="currentColor"/><path d="M5 8.2l2 2 4-4.2" stroke="#fff" stroke-width="1.8" fill="none"/></svg>Kapandı</span></div>
+   <div class="steps"><i class="d"></i><i class="d"></i><i class="d"></i><i class="d"></i></div>
+   <div class="sl"><span>Açıldı</span><span>Onaylandı</span><span>Çalışmada</span><span><b>Kapanış</b></span></div>
+   <div class="alert ok"><b>✓</b><span>Döngü kapandı: 4/4 adım, kontrol listesi tam.</span></div>
+   <div class="acts"><button class="btn b2">Yeni iş izni</button><a class="lnk" style="align-self:center">Raporu indir</a></div>
+  </div>
+ </div>
+</div>
+</div>
+
+<div class="sec"><h2>Kontrast özeti</h2>
+<table><tr><th>Ön plan</th><th>Zemin</th><th>Oran</th><th>Kullanım</th><th>Sonuç</th></tr>
+<tr><td>Lacivert</td><td>Beyaz / Kâğıt</td><td>17.3 / 16.1</td><td>Gövde metni, başlık</td><td class="pass">AAA</td></tr>
+<tr><td>Beyaz</td><td>Lacivert</td><td>17.3</td><td>Birincil buton, üst bar</td><td class="pass">AAA</td></tr>
+<tr><td>Lacivert</td><td>Turkuaz</td><td>8.1</td><td>Vurgu butonu</td><td class="pass">AAA</td></tr>
+<tr><td>Turkuaz Koyu</td><td>Beyaz / Kâğıt</td><td>5.1 / 4.7</td><td>Bağlantı, aksan metni</td><td class="pass">AA</td></tr>
+<tr><td>Arduvaz</td><td>Beyaz / Kâğıt</td><td>6.2 / 5.8</td><td>İkincil metin</td><td class="pass">AA</td></tr>
+<tr><td>Başarılı / Uyarı / Hata</td><td>Kendi zemini</td><td>4.9 / 4.6 / 4.8</td><td>Durum etiketi</td><td class="pass">AA</td></tr>
+<tr><td>Turkuaz</td><td>Beyaz</td><td>2.1</td><td>Metin olarak kullanılmaz</td><td class="fail">✕</td></tr>
+</table></div>
+</body></html>

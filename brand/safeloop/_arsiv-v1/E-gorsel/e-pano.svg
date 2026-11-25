@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="954" viewBox="0 0 1600 954"><rect width="1600" height="954" fill="#f7f7f4"/><text x="60" y="78" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="40" font-weight="700" fill="#161616">SafeLoop — E: kullanıcı eskizi (S+L)</text><text x="60" y="116" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" fill="#6b6b6b">Eskizin iki geometrik yorumu · çalışma</text><rect x="60" y="150" width="726" height="744" rx="18" fill="#fff" stroke="#e4e4e0" stroke-width="1"/><g><svg xmlns="http://www.w3.org/2000/svg" overflow="visible" role="img" aria-labelledby="t" viewBox="0 0 256 256" x="90" y="190" width="666" height="300" preserveAspectRatio="xMidYMid meet"><title id="c0-t">SafeLoop E1 açısal SL döngü</title>
+<path d="M178 58 H70 L178 198 H70 Z" fill="none" stroke="#111111" stroke-width="28" stroke-linejoin="miter" stroke-miterlimit="10" stroke-linecap="butt"/>
+<path d="M177 198 H232" fill="none" stroke="#111111" stroke-width="28" stroke-linejoin="miter" stroke-miterlimit="10" stroke-linecap="butt"/>
+</svg>
+</g><g><svg xmlns="http://www.w3.org/2000/svg" overflow="visible" role="img" aria-labelledby="t" viewBox="0 0 1088 256" x="90" y="514" width="666" height="120" preserveAspectRatio="xMidYMid meet"><title id="l0-t">SafeLoop E1 lockup</title>
+<g id="l0-symbol"><path d="M178 58 H70 L178 198 H70 Z" fill="none" stroke="#111111" stroke-width="28" stroke-linejoin="miter" stroke-miterlimit="10" stroke-linecap="butt"/>
+<path d="M177 198 H232" fill="none" stroke="#111111" stroke-width="28" stroke-linejoin="miter" stroke-miterlimit="10" stroke-linecap="butt"/></g>
+<g id="l0-wordmark" transform="translate(312 180.5)"><path d="M63 -69.5 A26 19.5 0 1 0 37 -50 A26 19.5 0 1 1 11 -30.5" fill="none" stroke="#111111" stroke-width="22" stroke-linecap="butt" stroke-linejoin="round"/>
+<circle cx="140" cy="-50" r="39" fill="none" stroke="#111111" stroke-width="22"/>
+<path d="M179 -100 V0" fill="none" stroke="#111111" stroke-width="22" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M230 0 V-117 A22 22 0 0 1 252 -139 H266 M206 -89 H260" fill="none" stroke="#111111" stroke-width="22" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M371.00 -50.00 A39 39 0 1 0 361.88 -24.93 M293 -50 H371" fill="none" stroke="#111111" stroke-width="22" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M409 -150 V0" fill="none" stroke="#111111" stroke-width="22" stroke-linecap="butt" stroke-linejoin="round"/>
+<circle cx="486" cy="-50" r="39" fill="none" stroke="#111111" stroke-width="22"/>
+<circle cx="602" cy="-50" r="39" fill="none" stroke="#111111" stroke-width="22"/>
+<circle cx="718" cy="-50" r="39" fill="none" stroke="#111111" stroke-width="22"/>
+<path d="M679 -100 V45" fill="none" stroke="#111111" stroke-width="22" stroke-linecap="butt" stroke-linejoin="round"/></g>
+</svg>
+</g><g><svg xmlns="http://www.w3.org/2000/svg" overflow="visible" role="img" aria-labelledby="t" viewBox="0 0 256 256" x="90" y="660" width="64" height="64" preserveAspectRatio="xMidYMid meet"><title id="s064-t">SafeLoop E1 açısal SL döngü</title>
+<path d="M178 58 H70 L178 198 H70 Z" fill="none" stroke="#111111" stroke-width="28" stroke-linejoin="miter" stroke-miterlimit="10" stroke-linecap="butt"/>
+<path d="M177 198 H232" fill="none" stroke="#111111" stroke-width="28" stroke-linejoin="miter" stroke-miterlimit="10" stroke-linecap="butt"/>
+</svg>
+</g><text x="122" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">64px</text><g><svg xmlns="http://www.w3.org/2000/svg" overflow="visible" role="img" aria-labelledby="t" viewBox="0 0 256 256" x="180" y="692" width="32" height="32" preserveAspectRatio="xMidYMid meet"><title id="s032-t">SafeLoop E1 açısal SL döngü</title>
+<path d="M178 58 H70 L178 198 H70 Z" fill="none" stroke="#111111" stroke-width="28" stroke-linejoin="miter" stroke-miterlimit="10" stroke-linecap="butt"/>
+<path d="M177 198 H232" fill="none" stroke="#111111" stroke-width="28" stroke-linejoin="miter" stroke-miterlimit="10" stroke-linecap="butt"/>
+</svg>
+</g><text x="196" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">32px</text><g><svg xmlns="http://www.w3.org/2000/svg" overflow="visible" role="img" aria-labelledby="t" viewBox="0 0 256 256" x="238" y="708" width="16" height="16" preserveAspectRatio="xMidYMid meet"><title id="s016-t">SafeLoop E1 açısal SL döngü</title>
+<path d="M178 58 H70 L178 198 H70 Z" fill="none" stroke="#111111" stroke-width="28" stroke-linejoin="miter" stroke-miterlimit="10" stroke-linecap="butt"/>
+<path d="M177 198 H232" fill="none" stroke="#111111" stroke-width="28" stroke-linejoin="miter" stroke-miterlimit="10" stroke-linecap="butt"/>
+</svg>
+</g><text x="246" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">16px</text><text x="90.0" y="780" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#161616">A · E1 Açısal SL</text><text x="90.0" y="814" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">Açısal S + çapraz L gövdesi kapalı bir 8/kum saati döngüsü kurar; L</text><text x="90.0" y="840" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">ayağı sağa uzar.</text><rect x="814" y="150" width="726" height="744" rx="18" fill="#fff" stroke="#e4e4e0" stroke-width="1"/><g><svg xmlns="http://www.w3.org/2000/svg" overflow="visible" role="img" aria-labelledby="t" viewBox="0 0 256 256" x="844" y="190" width="666" height="300" preserveAspectRatio="xMidYMid meet"><title id="c1-t">SafeLoop E2 eskize sadık SL</title>
+<path d="M70 198 L178 58 H70 L165.07 116.53 A44 44 0 0 1 142 198" fill="none" stroke="#111111" stroke-width="28" stroke-linejoin="round" stroke-miterlimit="10" stroke-linecap="butt"/>
+<path d="M54 198 H232" fill="none" stroke="#111111" stroke-width="28" stroke-linejoin="miter" stroke-miterlimit="10" stroke-linecap="butt"/>
+</svg>
+</g><g><svg xmlns="http://www.w3.org/2000/svg" overflow="visible" role="img" aria-labelledby="t" viewBox="0 0 1088 256" x="844" y="514" width="666" height="120" preserveAspectRatio="xMidYMid meet"><title id="l1-t">SafeLoop E2 lockup</title>
+<g id="l1-symbol"><path d="M70 198 L178 58 H70 L165.07 116.53 A44 44 0 0 1 142 198" fill="none" stroke="#111111" stroke-width="28" stroke-linejoin="round" stroke-miterlimit="10" stroke-linecap="butt"/>
+<path d="M54 198 H232" fill="none" stroke="#111111" stroke-width="28" stroke-linejoin="miter" stroke-miterlimit="10" stroke-linecap="butt"/></g>
+<g id="l1-wordmark" transform="translate(312 180.5)"><path d="M63 -69.5 A26 19.5 0 1 0 37 -50 A26 19.5 0 1 1 11 -30.5" fill="none" stroke="#111111" stroke-width="22" stroke-linecap="butt" stroke-linejoin="round"/>
+<circle cx="140" cy="-50" r="39" fill="none" stroke="#111111" stroke-width="22"/>
+<path d="M179 -100 V0" fill="none" stroke="#111111" stroke-width="22" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M230 0 V-117 A22 22 0 0 1 252 -139 H266 M206 -89 H260" fill="none" stroke="#111111" stroke-width="22" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M371.00 -50.00 A39 39 0 1 0 361.88 -24.93 M293 -50 H371" fill="none" stroke="#111111" stroke-width="22" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M409 -150 V0" fill="none" stroke="#111111" stroke-width="22" stroke-linecap="butt" stroke-linejoin="round"/>
+<circle cx="486" cy="-50" r="39" fill="none" stroke="#111111" stroke-width="22"/>
+<circle cx="602" cy="-50" r="39" fill="none" stroke="#111111" stroke-width="22"/>
+<circle cx="718" cy="-50" r="39" fill="none" stroke="#111111" stroke-width="22"/>
+<path d="M679 -100 V45" fill="none" stroke="#111111" stroke-width="22" stroke-linecap="butt" stroke-linejoin="round"/></g>
+</svg>
+</g><g><svg xmlns="http://www.w3.org/2000/svg" overflow="visible" role="img" aria-labelledby="t" viewBox="0 0 256 256" x="844" y="660" width="64" height="64" preserveAspectRatio="xMidYMid meet"><title id="s164-t">SafeLoop E2 eskize sadık SL</title>
+<path d="M70 198 L178 58 H70 L165.07 116.53 A44 44 0 0 1 142 198" fill="none" stroke="#111111" stroke-width="28" stroke-linejoin="round" stroke-miterlimit="10" stroke-linecap="butt"/>
+<path d="M54 198 H232" fill="none" stroke="#111111" stroke-width="28" stroke-linejoin="miter" stroke-miterlimit="10" stroke-linecap="butt"/>
+</svg>
+</g><text x="876" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">64px</text><g><svg xmlns="http://www.w3.org/2000/svg" overflow="visible" role="img" aria-labelledby="t" viewBox="0 0 256 256" x="934" y="692" width="32" height="32" preserveAspectRatio="xMidYMid meet"><title id="s132-t">SafeLoop E2 eskize sadık SL</title>
+<path d="M70 198 L178 58 H70 L165.07 116.53 A44 44 0 0 1 142 198" fill="none" stroke="#111111" stroke-width="28" stroke-linejoin="round" stroke-miterlimit="10" stroke-linecap="butt"/>
+<path d="M54 198 H232" fill="none" stroke="#111111" stroke-width="28" stroke-linejoin="miter" stroke-miterlimit="10" stroke-linecap="butt"/>
+</svg>
+</g><text x="950" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">32px</text><g><svg xmlns="http://www.w3.org/2000/svg" overflow="visible" role="img" aria-labelledby="t" viewBox="0 0 256 256" x="992" y="708" width="16" height="16" preserveAspectRatio="xMidYMid meet"><title id="s116-t">SafeLoop E2 eskize sadık SL</title>
+<path d="M70 198 L178 58 H70 L165.07 116.53 A44 44 0 0 1 142 198" fill="none" stroke="#111111" stroke-width="28" stroke-linejoin="round" stroke-miterlimit="10" stroke-linecap="butt"/>
+<path d="M54 198 H232" fill="none" stroke="#111111" stroke-width="28" stroke-linejoin="miter" stroke-miterlimit="10" stroke-linecap="butt"/>
+</svg>
+</g><text x="1000" y="744" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#8a8a8a" text-anchor="middle">16px</text><text x="844.0" y="780" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#161616">B · E2 Eskize sadık SL</text><text x="844.0" y="814" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">Eskizdeki tek kesintisiz çizgi: L gövdesi, üst bar, omurga ve kâse;</text><text x="844.0" y="840" font-family="system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="19" fill="#555">taban sağa uzar.</text></svg>

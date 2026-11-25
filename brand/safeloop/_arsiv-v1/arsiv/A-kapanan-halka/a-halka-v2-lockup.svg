@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1088 256" width="1088" height="256" role="img" aria-labelledby="t"><title id="t">SafeLoop yatay logo v2</title>
+<g id="symbol"><path d="M219.98 83.91 A102 102 0 1 1 172.09 36.02 A36 36 0 0 0 151.47 66.31 A66 66 0 1 0 189.69 104.53 A36 36 0 0 0 219.98 83.91 Z" fill="#111111"/>
+<circle cx="187.4" cy="68.6" r="24" fill="#111111"/></g>
+<g id="wordmark" transform="translate(312 180.5)" overflow="visible"><path d="M63 -69.5 A26 19.5 0 1 0 37 -50 A26 19.5 0 1 1 11 -30.5" fill="none" stroke="#111111" stroke-width="22" stroke-linecap="butt" stroke-linejoin="round"/>
+<circle cx="140" cy="-50" r="39" fill="none" stroke="#111111" stroke-width="22"/>
+<path d="M179 -100 V0" fill="none" stroke="#111111" stroke-width="22" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M230 0 V-117 A22 22 0 0 1 252 -139 H266 M206 -89 H260" fill="none" stroke="#111111" stroke-width="22" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M371.00 -50.00 A39 39 0 1 0 361.88 -24.93 M293 -50 H371" fill="none" stroke="#111111" stroke-width="22" stroke-linecap="butt" stroke-linejoin="round"/>
+<path d="M409 -150 V0" fill="none" stroke="#111111" stroke-width="22" stroke-linecap="butt" stroke-linejoin="round"/>
+<circle cx="486" cy="-50" r="39" fill="none" stroke="#111111" stroke-width="22"/>
+<circle cx="602" cy="-50" r="39" fill="none" stroke="#111111" stroke-width="22"/>
+<circle cx="718" cy="-50" r="39" fill="none" stroke="#111111" stroke-width="22"/>
+<path d="M679 -100 V45" fill="none" stroke="#111111" stroke-width="22" stroke-linecap="butt" stroke-linejoin="round"/></g>
+</svg>
