@@ -1,5 +1,7 @@
 # Logo kullanım notları (marka kılavuzu için taslak)
 
+> Kesin sürüm: [06-marka-kilavuzu.md](06-marka-kilavuzu.md). Bu dosya taslak olarak kalır.
+
 ## Hangi sürüm nerede
 - **Kutulu sembol + wordmark** (lockup-box): geniş alanlar (web üst bar, sunum, antetli kâğıt, tabela).
 - **Yalnız wordmark** (safel∘∘p): dar ve yatay alanlar (mobil üst bar, e-posta imzası, alt bilgi).

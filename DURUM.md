@@ -32,8 +32,16 @@
   - kontrast.md (26 çift × 2 tema, tümü WCAG'ı geçiyor) · onizleme.html/.png · README.md
   - Üretici: tokens/src/build_tokens.py (tek kaynak)
 
+- **Aşama 6 tamamlandı ve onaylandı (teslim):** brand/safeloop/final/
+  - svg/ (29 dosya, tümü outline, sıkı kırpım): yatay · yatay-kucuk · yatay-imza · dikey · dikey-kucuk · dikey-imza · wordmark · sembol · sembol-kucuk × renkli/siyah/beyaz + sembol-kare + favicon.svg
+  - png/: favicon.ico (16/32/48) · favicon-16/32 · apple-touch-icon 180 · icon-192/512 · icon-maskable-512 · lockup PNG'leri (yatay/wordmark 1200, dikey 800; saydam) · site.webmanifest
+  - Kontrol panosu: final/teslim-pano.png (.html)
+  - Marka kılavuzu: guidelines/06-marka-kilavuzu.md (sürümler, boyuta göre kesim, boş alan, renk, yapılmayacaklar, dosya listesi, <head> kodu, token bağlantısı)
+  - Üretici: final/src/build_final.py → render_final.py · ttf.py (bağımlılıksız font→path) · fonts/PlusJakartaSans-SemiBold.ttf + OFL.txt
+  - Doğrulama: outline ile stroke farkı yalnız kenar yumuşatması (piksel fark testi); SVG'lerde stroke/text yok.
+
 ## Yapılmadı
-- Aşama 6: Teslim
+- (yok — tüm aşamalar tamamlandı)
 
 ## Kararlar
 - Marka özü: "Her açılan aksiyon kapanır." (kapalı döngü / PDCA)
@@ -56,6 +64,15 @@
 - Çalışma kapsamı: yalnız bu depo; başka proje ya da uygulama koduna dokunulmaz.
 - Kullanım kuralı: kutulu sembol + wordmark geniş alanlarda; yalnız wordmark dar alanlarda; yalnız kutulu sembol ikon ve favicon olarak.
 
+- **KARAR (Aşama 6): Teslim onaylandı.**
+  - "Renkli" sürüm = Lacivert kutu + wordmark, imza Arduvaz #566275. Siyah/beyaz sürümlerde imza tek renk.
+  - İmza: Plus Jakarta Sans SemiBold, path'e çevrildi; yatayda "s"ye sola hizalı, dikeyde ortalı. Yalnız ana kesimle (yatay ≥ 320 px, dikey ≥ 200 px).
+  - Dikey lockup: kutu 200 birim, wordmark'a ortalı, kutu–harf boşluğu 56 birim.
+  - Boş alan = kutu yüksekliğinin yarısı (≈ x-yüksekliği).
+  - Kesim sınırları: yatay ana ≥ 250 px, küçük 120–249 px; dikey ana ≥ 200 px, küçük 80–199 px; sembol ana ≥ 64 px, küçük 16–63 px.
+  - apple-touch ve maskable ikon: tam kare lacivert + beyaz sembol (sembol-kare). PWA "any": saydam köşeli kutu.
+  - favicon.svg koyu tarayıcı temasında beyaz kutuya geçer.
+
 - **KARAR (Aşama 5): Token'lar onaylandı.**
   - Semantic token'lar: state-active* = Turkuaz (aktif/devam eden), state-done* = Başarılı yeşili (yalnız kapandı).
   - Koyu temada birincil buton ters: Buz #E8EDF3 zemin + Lacivert metin. Vurgu butonu iki temada Turkuaz + Lacivert metin.
@@ -65,13 +82,7 @@
 ## Açık konular
 - Marka tescil araştırması profesyonelce yapılmalı (kütüphane taraması yeterli değil).
 - Risk: Sembol 16–32 px'te "S"/"§" ya da senkron ikonu gibi okunabilir.
-- Wordmark stroke, sembol dolgu; teslimde (Aşama 6) outline'a çevrilecek. wordmark-oo.svg hâlâ #111; Aşama 4 paletiyle güncellenecek.
-- Boyuta göre kesim seçimi (≤ 200 px lockup ve 16–32 px ikon → küçük kesim) kılavuza yazılacak.
+- Çözüldü (Aşama 6): wordmark outline'a çevrildi; wordmark-oo.svg zaten #0F1B2D idi; kesim seçimi kılavuzda.
 
 ## Sıradaki adım
-- **Aşama 6: Teslim** → brand/safeloop/final/svg/, final/png/, guidelines/
-  - Yatay/dikey lockup, sembol, "by Rüzgar Safety"li sürüm; renkli/siyah/beyaz.
-  - Wordmark stroke → outline; wordmark-oo.svg paleti güncellenecek.
-  - PNG: favicon.ico, 16/32, 192/512 PWA, 180 apple-touch-icon (16–32 px küçük kesimle).
-  - Marka kılavuzu (markdown): boyuta göre kesim seçimi, token'lara bağlantı.
-- Onay bekleniyor: Aşama 6'ya başlamak için.
+- Proje teslim edildi. İsteğe bağlı: tescil araştırması, sosyal medya şablonları, antetli kâğıt/kartvizit.

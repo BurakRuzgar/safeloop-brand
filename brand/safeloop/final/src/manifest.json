@@ -1,0 +1,156 @@
+{
+ "files": [
+  {
+   "file": "safeloop-yatay-renkli.svg",
+   "w": 666,
+   "h": 141
+  },
+  {
+   "file": "safeloop-yatay-kucuk-renkli.svg",
+   "w": 666,
+   "h": 141
+  },
+  {
+   "file": "safeloop-yatay-imza-renkli.svg",
+   "w": 666,
+   "h": 163
+  },
+  {
+   "file": "safeloop-dikey-renkli.svg",
+   "w": 497,
+   "h": 397
+  },
+  {
+   "file": "safeloop-dikey-kucuk-renkli.svg",
+   "w": 497,
+   "h": 397
+  },
+  {
+   "file": "safeloop-dikey-imza-renkli.svg",
+   "w": 497,
+   "h": 449
+  },
+  {
+   "file": "safeloop-wordmark-renkli.svg",
+   "w": 497,
+   "h": 141
+  },
+  {
+   "file": "safeloop-sembol-renkli.svg",
+   "w": 256,
+   "h": 256
+  },
+  {
+   "file": "safeloop-sembol-kucuk-renkli.svg",
+   "w": 256,
+   "h": 256
+  },
+  {
+   "file": "safeloop-yatay-siyah.svg",
+   "w": 666,
+   "h": 141
+  },
+  {
+   "file": "safeloop-yatay-kucuk-siyah.svg",
+   "w": 666,
+   "h": 141
+  },
+  {
+   "file": "safeloop-yatay-imza-siyah.svg",
+   "w": 666,
+   "h": 163
+  },
+  {
+   "file": "safeloop-dikey-siyah.svg",
+   "w": 497,
+   "h": 397
+  },
+  {
+   "file": "safeloop-dikey-kucuk-siyah.svg",
+   "w": 497,
+   "h": 397
+  },
+  {
+   "file": "safeloop-dikey-imza-siyah.svg",
+   "w": 497,
+   "h": 449
+  },
+  {
+   "file": "safeloop-wordmark-siyah.svg",
+   "w": 497,
+   "h": 141
+  },
+  {
+   "file": "safeloop-sembol-siyah.svg",
+   "w": 256,
+   "h": 256
+  },
+  {
+   "file": "safeloop-sembol-kucuk-siyah.svg",
+   "w": 256,
+   "h": 256
+  },
+  {
+   "file": "safeloop-yatay-beyaz.svg",
+   "w": 666,
+   "h": 141
+  },
+  {
+   "file": "safeloop-yatay-kucuk-beyaz.svg",
+   "w": 666,
+   "h": 141
+  },
+  {
+   "file": "safeloop-yatay-imza-beyaz.svg",
+   "w": 666,
+   "h": 163
+  },
+  {
+   "file": "safeloop-dikey-beyaz.svg",
+   "w": 497,
+   "h": 397
+  },
+  {
+   "file": "safeloop-dikey-kucuk-beyaz.svg",
+   "w": 497,
+   "h": 397
+  },
+  {
+   "file": "safeloop-dikey-imza-beyaz.svg",
+   "w": 497,
+   "h": 449
+  },
+  {
+   "file": "safeloop-wordmark-beyaz.svg",
+   "w": 497,
+   "h": 141
+  },
+  {
+   "file": "safeloop-sembol-beyaz.svg",
+   "w": 256,
+   "h": 256
+  },
+  {
+   "file": "safeloop-sembol-kucuk-beyaz.svg",
+   "w": 256,
+   "h": 256
+  },
+  {
+   "file": "safeloop-sembol-kare.svg",
+   "w": 256,
+   "h": 256
+  },
+  {
+   "file": "favicon.svg",
+   "w": 256,
+   "h": 256
+  }
+ ],
+ "stroke_d": "M42.1,87 A14,14 0 1 0 30,108 A14,14 0 1 1 17.9,129 M120,108 A25,25 0 1 0 70,108 A25,25 0 1 0 120,108 M120,76 V140 M151,140 V60 A18,18 0 0 1 169,42 H175 M137,83 H171 M190,108 H240 A25,25 0 1 0 232.7,125.7 M268,40 V140 M498,108 A25,25 0 1 0 448,108 A25,25 0 1 0 498,108 M448,76 V176",
+ "word_bbox": [
+  8.975668982276392,
+  35.0,
+  505.0,
+  176.0
+ ]
+}
